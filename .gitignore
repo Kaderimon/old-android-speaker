@@ -1,0 +1,16 @@
+# --- secrets: never publish ---
+soloist-api-key.txt
+*.key
+*.pem
+*.keystore
+*.jks
+
+# --- build outputs: rebuild with scripts/ ---
+# out/ contains Spotify's Soloist binary (redistribution not allowed) and binaries that
+# statically link LGPL code (libconfig) or bundle Debian's glibc - don't publish them.
+out/
+
+# --- local junk ---
+*.log
+*.apk
+*.raw
