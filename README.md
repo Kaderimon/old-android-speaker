@@ -9,6 +9,13 @@ touchscreen) into a network speaker: plug a speaker into the 3.5 mm jack and it 
 with a lock-screen style **"now playing" home screen** (clock, cover art, title/artist/album,
 progress, source). Everything is driven over ADB from a PC; no Android SDK and no app store needed.
 
+<p align="center">
+  <img src="docs/screenshots/idle.png" width="240" alt="Home screen while idle: clock, date and 'Ready for AirPlay & Spotify'">
+  <img src="docs/screenshots/spotify.png" width="240" alt="Home screen playing from Spotify Connect">
+  <img src="docs/screenshots/airplay.png" width="240" alt="Home screen playing over AirPlay">
+  <br><sub>Home screen: idle, Spotify Connect, AirPlay (renders of the launcher layout with made-up tracks and cover art)</sub>
+</p>
+
 ## Requirements
 - A 32-bit ARM (ARMv7, hard-float) Android 4.x phone with **USB debugging** enabled.
   Tested only on the THL W200; other Android 4.x phones should work with small changes (see below).
